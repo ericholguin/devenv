@@ -1,15 +1,17 @@
-# DEV ENV
+# DEV ENV ⚙️
 
-WIP
-Contains my bash profile, neovim config, and tmux config
+[WIP] 
+- bash profile
+- neovim config
+- tmux config
 
 # IDE
 
 ## NEOVIM
 
-### OSX INSTALLATION
+#### OSX INSTALLATION
 
-```
+```bash
 # Latest
 brew install neovim
 ```
@@ -22,8 +24,10 @@ brew install --HEAD neovim
 # Might need cmake, luarocks -- can use brew
 ```
 
-#### Python & NodeJS Support
+#### PYTHON & NODE.JS SUPPORT
+
 `pip3 install pynvim`
+
 `npm install -g neovim`
 
 #### PLUGIN MANAGER
@@ -32,12 +36,14 @@ https://github.com/junegunn/vim-plug
 # TMUX
 Terminal Multiplexer, the vim of terminal management, making you a terminal wizard 🧙‍♂️
 
-## OSX INSTALLATION
+#### OSX INSTALLATION
 
 `$ brew install tmux`
 
-## TMUX PACKAGE MANAGER
+#### TMUX PACKAGE MANAGER
 
 [Installation](https://github.com/tmux-plugins/tpm#installation)
+
 `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+
 `vim .tmux.conf`
